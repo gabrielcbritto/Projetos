@@ -10,31 +10,37 @@
 
 body {
     background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
     background-color: #F4F4F4;
     width: 375px;
     height: 766px;
-    margin: 0 auto;
-    margin-top: 100px;
 }
 
 header {
     background-color: #1B83E2;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
     font-weight: normal;
     font-size: 24px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 22px;
 }
 
 main {
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 label {
@@ -53,8 +59,6 @@ select {
     appearance: none;
     padding: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
-    margin-top: 6px;
-    margin-bottom: 24px;
 }
 
 input {
@@ -94,11 +98,18 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .section-container {
     padding: 10px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-name {
